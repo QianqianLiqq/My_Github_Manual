@@ -1,0 +1,10 @@
+第一步：在Git Bash中进入本地目录
+        $ cd E:
+        $ cd 数据结构与算法/数据结构代码/
+第二步：执行 $ git init //把这个目录变成Git可以管理的仓库
+第三步：执行 $ git add .//不但可以跟单一文件，还可以跟通配符，更可以跟目录。一个点就把当前目录下所有未追踪的文件全部add了 
+第四步：执行 $ git commit -m "first commit" //把文件提交到仓库
+第五步：执行 $ git remote add origin git@github.com:QianqianLiqq/Data_Structures_and_Algorithms.git//关联远程仓库
+第六步：执行 $ git push -u origin master //把本地库的所有内容推送到远程库上
+若是更新已经存在的仓库中的内容，则不需要执行第五步，因为远程仓库已经关联了
+
